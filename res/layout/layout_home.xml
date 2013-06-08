@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <com.android.dashboard.DashboardLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/dashboard_button_one"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_add"
+            android:text="@string/activity_one" />
+
+        <Button
+            android:id="@+id/dashboard_button_two"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_add"
+            android:text="@string/activity_two" />
+
+        <Button
+            android:id="@+id/dashboard_button_three"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_add"
+            android:text="@string/activity_three" />
+
+        <Button
+            android:id="@+id/dashboard_button_four"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_add"
+            android:text="@string/activity_four" />
+
+        <Button
+            android:id="@+id/dashboard_button_five"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_add"
+            android:text="@string/activity_five" />
+
+        <Button
+            android:id="@+id/dashboard_button_six"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_add"
+            android:text="@string/activity_six" />
+        
+        
+    </com.android.dashboard.DashboardLayout>
+
+</LinearLayout>
